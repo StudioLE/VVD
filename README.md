@@ -15,12 +15,15 @@ To fully utilize VVD, you will need to have the following software installed:
 * .Net 4.0 or greater (to compute and apply diffs)
 * graphviz and pygraphviz
 
-### Tips for installing graphviz and pygraphviz library on Windwows
-http://www.graphviz.org/Download_windows.php
-http://aka.ms/vcpython27
-http://stackoverflow.com/questions/22722730/installing-pygraphviz-on-windows-python-2-7-graphviz-2-36
-http://www.lfd.uci.edu/~gohlke/pythonlibs/
-Set your PATH to include pointer to graphviz library
+### Installing graphviz and pygraphviz library on Windows
+
+1. [Download and install GraphViz](https://graphviz.gitlab.io/_pages/Download/Download_windows.html)
+2. [Download the PyGraphViz binaries](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pygraphviz)
+3. Install the PyGraphViz binaries with:
+```py
+pip install pygraphviz-1.3.1-cp27-none-win32.whl
+```
+4. Add `C:\Program Files (x86)\Graphviz2.38\bin` to path
 
 ## Usage
 
